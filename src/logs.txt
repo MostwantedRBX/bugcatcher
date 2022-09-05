@@ -1,0 +1,260 @@
+{"level":"info","time":"2022-07-29T13:06:45-05:00","message":"Logs started"}
+{"level":"info","time":"2022-07-29T13:06:45-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-07-29T13:14:49-05:00","message":"Logs started"}
+{"level":"info","time":"2022-07-29T13:14:49-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-07-29T13:15:43-05:00","message":"Logs started"}
+{"level":"info","time":"2022-07-29T13:15:43-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-08-01T17:48:23-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-01T17:48:23-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-08-01T18:46:43-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-01T18:46:43-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-08-01T18:48:53-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-01T18:48:53-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-08-01T18:49:51-05:00","message":" :: "}
+{"level":"info","time":"2022-08-01T18:50:59-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-01T18:50:59-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-08-01T18:51:59-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-01T18:51:59-05:00","message":"Starting server @localhost:8080"}
+{"level":"error","error":"could not scan row from db","time":"2022-08-01T18:52:06-05:00","message":"er"}
+{"level":"info","time":"2022-08-01T18:52:33-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-01T18:52:33-05:00","message":"Starting server @localhost:8080"}
+{"level":"error","error":"could not scan row from db","caller":"J:/Coding/Web/bugcatcher/src/main.go:49","time":"2022-08-01T18:52:38-05:00","message":"er"}
+{"level":"info","time":"2022-08-01T18:53:21-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-01T18:53:21-05:00","message":"Starting server @localhost:8080"}
+{"level":"error","error":"could not scan row from db","caller":"J:/Coding/Web/bugcatcher/src/main.go:49","time":"2022-08-01T18:53:29-05:00","message":"er"}
+{"level":"info","time":"2022-08-01T18:54:08-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-01T18:54:08-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-08-01T18:54:19-05:00","message":"mostwantedrbxsteam@gmail.com :: $2a$08$voMa4OOli9961./uABClTuzPOUHAqv3eeIbYlVbupLbH0N/AsghkG"}
+{"level":"info","time":"2022-08-01T18:55:49-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-01T18:55:49-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-08-01T18:56:04-05:00","message":"mostwantedrbxstdom1 :: $2a$08$QJ0TGZgvdDWM/2g81z1TXOvwlCq0Na5etF6PeEk7KG8ZhqoY5kpW6"}
+{"level":"debug","time":"2022-08-01T18:56:17-05:00","message":"mostwantedrbxsdtdom1 :: $2a$08$qlTXCcueqsSaWTBSWC/.AOjVxU7IoaRn/STujMoi6lhCep75OCj9G"}
+{"level":"info","time":"2022-08-01T19:01:58-05:00","message":"User already exists"}
+{"level":"info","time":"2022-08-01T19:02:00-05:00","message":"User already exists"}
+{"level":"info","time":"2022-08-01T19:04:07-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-01T19:04:07-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-08-01T19:04:12-05:00","message":"User already exists"}
+{"level":"info","time":"2022-08-03T16:43:58-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-03T16:43:58-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-08-03T16:44:16-05:00","message":"User already exists"}
+{"level":"info","time":"2022-08-03T16:44:19-05:00","message":"User already exists"}
+{"level":"debug","time":"2022-08-03T16:44:25-05:00","message":"mostwantedrbxsdtdomg1 :: $2a$08$JANdES6Oo5Om2EfvtEzWfOfHG/RfT403YH1dHlN0Up5CS.NbNJn86"}
+{"level":"info","time":"2022-08-03T16:44:27-05:00","message":"User already exists"}
+{"level":"info","time":"2022-08-03T16:45:01-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-03T16:45:01-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-08-03T16:45:09-05:00","message":"User already exists"}
+{"level":"info","time":"2022-08-03T16:45:11-05:00","message":"User already exists"}
+{"level":"debug","time":"2022-08-03T16:45:14-05:00","message":"mostwantedrbxsdftdomg1 :: $2a$08$ZDD7eWJIpIRr0JXx1.NoN.WqudOBG/oYWUCmHAXErvaYYSG3SU/7q"}
+{"level":"info","time":"2022-08-03T16:45:24-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-03T16:45:24-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-08-03T16:45:34-05:00","message":"mostwantedrbxsfftdomg1 :: $2a$08$qQZxcebAyF2mI9x9LLGGnuT5zLTSXJ5fwCLFs9CMyR1xhuEZb5BPK"}
+{"level":"info","time":"2022-08-03T16:45:36-05:00","message":"User already exists"}
+{"level":"debug","time":"2022-08-03T16:45:39-05:00","message":"mostwantedrbxsfftfdomg1 :: $2a$08$pfThwMddZblCcxVbuxWMNeFCrASgQS7g7P4TuiaerR5avziswXFU."}
+{"level":"info","time":"2022-08-03T17:13:44-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-03T17:13:44-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-08-03T17:13:54-05:00","message":"User already exists"}
+{"level":"info","time":"2022-08-03T17:15:10-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-03T17:15:10-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-08-03T17:16:19-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-03T17:16:19-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-08-03T17:16:28-05:00","message":"hash/pass combo incorrect"}
+{"level":"info","time":"2022-08-03T17:19:03-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-03T17:19:03-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-08-03T21:03:28-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-03T21:03:28-05:00","message":"Starting server @localhost:8080"}
+{"level":"error","error":"could not scan row from db","caller":"J:/Coding/Web/bugcatcher/src/main.go:89","time":"2022-08-03T21:03:49-05:00","message":"er"}
+{"level":"error","error":"could not scan row from db","time":"2022-08-03T21:06:13-05:00","message":"Could find user"}
+{"level":"error","error":"could not scan row from db","time":"2022-08-03T21:06:13-05:00","message":"hash/pass combo incorrect"}
+{"level":"error","error":"could not scan row from db","time":"2022-08-03T21:06:18-05:00","message":"Could find user"}
+{"level":"error","error":"could not scan row from db","time":"2022-08-03T21:06:18-05:00","message":"hash/pass combo incorrect"}
+{"level":"info","time":"2022-08-03T21:07:52-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-03T21:07:52-05:00","message":"Starting server @localhost:8080"}
+{"level":"error","error":"could not scan row from db","time":"2022-08-03T21:08:21-05:00","message":"Could find user"}
+{"level":"error","error":"could not scan row from db","time":"2022-08-03T21:08:21-05:00","message":"hash/pass combo incorrect"}
+{"level":"error","error":"could not scan row from db","time":"2022-08-03T21:08:24-05:00","message":"Could find user"}
+{"level":"error","error":"could not scan row from db","time":"2022-08-03T21:08:24-05:00","message":"hash/pass combo incorrect"}
+{"level":"info","time":"2022-08-03T21:09:38-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-03T21:09:38-05:00","message":"Starting server @localhost:8080"}
+{"level":"error","error":"could not scan row from db","time":"2022-08-03T21:09:47-05:00","message":"Could find user"}
+{"level":"error","error":"could not scan row from db","time":"2022-08-03T21:09:47-05:00","message":"hash/pass combo incorrect"}
+{"level":"info","time":"2022-08-03T21:10:52-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-03T21:10:52-05:00","message":"Starting server @localhost:8080"}
+{"level":"error","error":"pq: column \"token\" does not exist","time":"2022-08-03T21:11:15-05:00","message":"Could find user"}
+{"level":"error","error":"pq: column \"token\" does not exist","time":"2022-08-03T21:11:15-05:00","message":"hash/pass combo incorrect"}
+{"level":"info","time":"2022-08-03T21:12:29-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-03T21:12:29-05:00","message":"Starting server @localhost:8080"}
+{"level":"error","error":"could not scan row from db","time":"2022-08-03T21:13:10-05:00","message":"Could find user"}
+{"level":"error","error":"could not scan row from db","time":"2022-08-03T21:13:10-05:00","message":"hash/pass combo incorrect"}
+{"level":"error","error":"could not scan row from db","time":"2022-08-03T21:13:16-05:00","message":"Could find user"}
+{"level":"error","error":"could not scan row from db","time":"2022-08-03T21:13:16-05:00","message":"hash/pass combo incorrect"}
+{"level":"info","time":"2022-08-03T21:13:42-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-03T21:13:42-05:00","message":"Starting server @localhost:8080"}
+{"level":"error","error":"sql: expected 3 destination arguments in Scan, not 2","time":"2022-08-03T21:13:47-05:00","message":"Could find user"}
+{"level":"error","error":"sql: expected 3 destination arguments in Scan, not 2","time":"2022-08-03T21:13:47-05:00","message":"hash/pass combo incorrect"}
+{"level":"info","time":"2022-08-03T21:14:46-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-03T21:14:46-05:00","message":"Starting server @localhost:8080"}
+{"level":"error","error":"sql: Scan error on column index 2, name \"token\": converting NULL to string is unsupported","time":"2022-08-03T21:14:52-05:00","message":"Could find user"}
+{"level":"error","error":"sql: Scan error on column index 2, name \"token\": converting NULL to string is unsupported","time":"2022-08-03T21:14:52-05:00","message":"hash/pass combo incorrect"}
+{"level":"info","time":"2022-08-03T21:16:30-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-03T21:16:30-05:00","message":"Starting server @localhost:8080"}
+{"level":"error","error":"parsing time \"\" as \"2006-01-02 15:04:05.999999999 -0700 MST\": cannot parse \"\" as \"2006\"","time":"2022-08-03T21:16:39-05:00","message":"Could not parse cookie expiry time"}
+{"level":"info","time":"2022-08-03T21:50:02-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-03T21:50:02-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-08-03T21:50:28-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-03T21:50:28-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-08-03T21:56:21-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-03T21:56:21-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-08-03T22:03:01-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-03T22:03:01-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-08-03T22:05:58-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-03T22:05:58-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-08-03T22:11:40-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-03T22:11:40-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-08-08T18:29:17-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-08T18:29:17-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-08-08T18:33:42-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-08T18:33:42-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-08-08T18:38:24-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-08T18:38:24-05:00","message":"Starting server @localhost:8080"}
+{"level":"error","error":"pq: column \"token\" does not exist","time":"2022-08-08T18:38:55-05:00","message":"Could find user"}
+{"level":"error","error":"pq: column \"token\" does not exist","time":"2022-08-08T18:38:55-05:00","message":"hash/pass combo incorrect"}
+{"level":"info","time":"2022-08-08T18:46:36-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-08T18:46:36-05:00","message":"Starting server @localhost:8080"}
+{"level":"error","error":"could not find email in db","time":"2022-08-08T18:47:50-05:00","message":"Could find user"}
+{"level":"error","error":"could not find email in db","time":"2022-08-08T18:47:50-05:00","message":"hash/pass combo incorrect"}
+{"level":"info","time":"2022-08-08T19:01:03-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-08T19:01:03-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-08-08T20:10:02-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-08T20:10:02-05:00","message":"Starting server @localhost:8080"}
+{"level":"error","error":"could not find token in db","time":"2022-08-08T20:10:46-05:00","message":"Could find user"}
+{"level":"info","time":"2022-08-08T20:12:46-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-08T20:12:46-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-08-08T20:16:45-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-08T20:16:45-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-08-08T20:16:56-05:00","message":"User already exists"}
+{"level":"error","error":"could not find token in db","time":"2022-08-08T20:17:21-05:00","message":"Could find user"}
+{"level":"error","error":"could not find token in db","time":"2022-08-08T20:22:02-05:00","message":"Could find user"}
+{"level":"info","time":"2022-08-08T20:24:41-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-08T20:24:41-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-08-08T20:25:01-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-08T20:25:01-05:00","message":"Starting server @localhost:8080"}
+{"level":"error","error":"invalid character '/' after object key:value pair","time":"2022-08-08T20:26:24-05:00","message":"Could not decode json"}
+{"level":"error","error":"invalid character '/' looking for beginning of object key string","time":"2022-08-08T20:26:58-05:00","message":"Could not decode json"}
+{"level":"error","error":"could not find token in db","time":"2022-08-08T20:29:04-05:00","message":"Could find user"}
+{"level":"info","time":"2022-08-08T20:30:06-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-08T20:30:06-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-08-08T20:30:21-05:00","message":"55fe5bd2-23f4-4f36-b3ad-e8289825630a"}
+{"level":"error","error":"could not find token in db","time":"2022-08-08T20:30:21-05:00","message":"Could find user"}
+{"level":"debug","time":"2022-08-08T20:39:00-05:00","message":"c787d5dd-9151-4af6-8fb0-958f1c5a3ca1"}
+{"level":"debug","time":"2022-08-08T20:39:00-05:00","message":"Found user from session token"}
+{"level":"info","time":"2022-08-08T20:41:28-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-08T20:41:28-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-08-08T20:43:31-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-08T20:43:31-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-08-08T20:43:37-05:00","message":"email: mostwantedrbx1 tkn:d66ab4bb-2e9f-471d-b30d-fa4900e6e979 exp:2022-08-08 21:43:37.9693747 -0500 CDT m=+3606.013406301"}
+{"level":"debug","time":"2022-08-08T20:44:50-05:00","message":"d66ab4bb-2e9f-471d-b30d-fa4900e6e979"}
+{"level":"debug","time":"2022-08-08T20:44:50-05:00","message":"Found user from session token"}
+{"level":"info","time":"2022-08-08T20:50:00-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-08T20:50:00-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-08-08T20:50:24-05:00","message":"email: mostwantedrbx1 tkn:236b625e-30f3-4426-8862-6b9be7e8187e exp:2022-08-08 21:50:24.3025152 -0500 CDT"}
+{"level":"info","time":"2022-08-08T20:54:12-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-08T20:54:12-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-08-08T20:54:19-05:00","message":"email: mostwantedrbx1 tkn:12428952-9b9d-4846-85cc-1e7471d22f57 exp:2022-08-08 21:54:19.5393303 -0500 CDT"}
+{"level":"debug","time":"2022-08-08T20:54:34-05:00","message":"12428952-9b9d-4846-85cc-1e7471d22f57"}
+{"level":"error","error":"could not find token in db","time":"2022-08-08T20:54:34-05:00","message":"Could find user"}
+{"level":"info","time":"2022-08-08T20:55:53-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-08T20:55:53-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-08-08T20:56:00-05:00","message":"12428952-9b9d-4846-85cc-1e7471d22f57"}
+{"level":"debug","time":"2022-08-08T20:56:00-05:00","message":"Token expires: 2022-08-08 21:54:19.53933 +0000 +0000"}
+{"level":"error","error":"could not find token in db","time":"2022-08-08T20:56:00-05:00","message":"Could find user"}
+{"level":"info","time":"2022-08-08T20:56:55-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-08T20:56:55-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-08-08T20:57:55-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-08T20:57:55-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-08-08T20:58:05-05:00","message":"12428952-9b9d-4846-85cc-1e7471d22f57"}
+{"level":"debug","time":"2022-08-08T20:58:05-05:00","message":"Token expires: 2022-08-08 21:54:19.53933 +0000 +0000"}
+{"level":"error","error":"could not find token in db","time":"2022-08-08T20:58:05-05:00","message":"Could find user"}
+{"level":"info","time":"2022-08-08T20:58:41-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-08T20:58:41-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-08-08T20:58:48-05:00","message":"12428952-9b9d-4846-85cc-1e7471d22f57"}
+{"level":"debug","time":"2022-08-08T20:58:48-05:00","message":"Token expires: 2022-08-08 21:54:19.53933 +0000 +0000"}
+{"level":"debug","time":"2022-08-08T20:58:48-05:00","message":"Found user from session token"}
+{"level":"info","time":"2022-08-08T21:03:07-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-08T21:03:07-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-08-08T21:03:17-05:00","message":"12428952-9b9d-4846-85cc-1e7471d22f57"}
+{"level":"debug","time":"2022-08-08T21:03:17-05:00","message":"Token expires: 2022-08-08 21:54:19.53933 +0000 +0000"}
+{"level":"error","error":"could not find token in db","time":"2022-08-08T21:03:17-05:00","message":"Could find user"}
+{"level":"info","time":"2022-08-08T21:03:44-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-08T21:03:44-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-08-08T21:03:53-05:00","message":"12428952-9b9d-4846-85cc-1e7471d22f57"}
+{"level":"debug","time":"2022-08-08T21:03:53-05:00","message":"Token expires: 2022-08-08 21:54:19.53933 +0000 +0000"}
+{"level":"error","error":"could not find token in db","time":"2022-08-08T21:03:53-05:00","message":"Could find user"}
+{"level":"info","time":"2022-08-08T21:05:52-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-08T21:05:52-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-08-08T21:05:58-05:00","message":"12428952-9b9d-4846-85cc-1e7471d22f57"}
+{"level":"debug","time":"2022-08-08T21:05:58-05:00","message":"Token expires: 2022-08-08 21:54:19.53933 +0000 +0000 true"}
+{"level":"error","error":"could not find token in db","time":"2022-08-08T21:05:58-05:00","message":"Could find user"}
+{"level":"info","time":"2022-08-08T21:07:30-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-08T21:07:30-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-08-08T21:07:43-05:00","message":"12428952-9b9d-4846-85cc-1e7471d22f57"}
+{"level":"error","error":"could not find token in db","time":"2022-08-08T21:07:43-05:00","message":"Could find user"}
+{"level":"debug","time":"2022-08-08T21:08:50-05:00","message":"email: mostwantedrbx1 tkn:2eefbfe2-2d86-4395-9730-3d13c8164aa1 exp:2022-08-09 03:08:50.3779135 +0000 UTC"}
+{"level":"debug","time":"2022-08-08T21:09:07-05:00","message":"2eefbfe2-2d86-4395-9730-3d13c8164aa1"}
+{"level":"debug","time":"2022-08-08T21:09:07-05:00","message":"Found user from session token"}
+{"level":"debug","time":"2022-08-08T21:09:25-05:00","message":"email: mostwantedrbx1 tkn:e101d42e-3ec6-4d91-bbe9-ede8d34401ca exp:2022-08-09 03:09:25.7967932 +0000 UTC"}
+{"level":"debug","time":"2022-08-08T21:09:28-05:00","message":"email: mostwantedrbx1 tkn:7dbfa148-5fb3-42fc-86a1-d394699f928c exp:2022-08-09 03:09:28.7153273 +0000 UTC"}
+{"level":"debug","time":"2022-08-08T21:09:37-05:00","message":"7dbfa148-5fb3-42fc-86a1-d394699f928c"}
+{"level":"debug","time":"2022-08-08T21:09:37-05:00","message":"Found user from session token"}
+{"level":"info","time":"2022-08-31T18:47:36-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-31T18:47:36-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-08-31T20:39:19-05:00","message":"email: mostwantedrbxsteam@gmail.com tkn:636d899a-510d-4770-a66a-ffa1354fe906 exp:2022-09-01 02:39:19.969746 +0000 UTC"}
+{"level":"info","time":"2022-08-31T20:41:49-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-31T20:41:49-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-08-31T20:42:22-05:00","message":"email: mostwantedrbxsteam@gmail.com tkn:8c7d4e5d-93cf-4e44-bc0a-8b1adba2a791 exp:2022-09-01 02:42:22.6822055 +0000 UTC"}
+{"level":"debug","time":"2022-08-31T20:43:23-05:00","message":"email: mostwantedrbxsteam@gmail.com tkn:7f3b49be-200a-4c39-ba04-41ae9da4fbe3 exp:2022-09-01 02:43:23.885818 +0000 UTC"}
+{"level":"info","time":"2022-08-31T20:44:13-05:00","message":"hash/pass combo incorrect"}
+{"level":"debug","time":"2022-08-31T20:44:45-05:00","message":"email: mostwantedrbxsteam@gmail.com tkn:9a571d00-6ddb-4d28-a691-03e203bfd83c exp:2022-09-01 02:44:45.8731703 +0000 UTC"}
+{"level":"info","time":"2022-08-31T21:09:31-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-31T21:09:31-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-08-31T21:09:44-05:00","message":"email: mostwantedrbxsteam@gmail.com tkn:621df2db-cb05-41a1-b225-b7ad5e82abb7 exp:2022-09-01 03:09:44.4285401 +0000 UTC"}
+{"level":"info","time":"2022-08-31T21:12:57-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-31T21:12:57-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-08-31T21:13:11-05:00","message":"email: mostwantedrbxsteam@gmail.com tkn:a17e90cd-2f3c-4826-8a74-e55bf33a52a1 exp:2022-09-01 03:13:11.4092107 +0000 UTC"}
+{"level":"debug","time":"2022-08-31T21:13:11-05:00","message":"a17e90cd-2f3c-4826-8a74-e55bf33a52a1"}
+{"level":"debug","time":"2022-08-31T21:13:11-05:00","message":"Found user from session token"}
+{"level":"info","time":"2022-08-31T21:16:08-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-31T21:16:08-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-08-31T21:16:27-05:00","message":"email: mostwantedrbxsteam@gmail.com tkn:a82f8ccd-df5d-4d21-9f53-2f595bb9ae9c exp:2022-09-01 03:16:27.4240602 +0000 UTC"}
+{"level":"debug","time":"2022-08-31T21:16:27-05:00","message":"a82f8ccd-df5d-4d21-9f53-2f595bb9ae9c"}
+{"level":"debug","time":"2022-08-31T21:16:27-05:00","message":"Found user from session token"}
+{"level":"debug","time":"2022-08-31T21:17:00-05:00","message":"email: mostwantedrbxsteam@gmail.com tkn:3e97e749-65ae-4f87-871d-a11ed95279f3 exp:2022-09-01 03:17:00.5888904 +0000 UTC"}
+{"level":"debug","time":"2022-08-31T21:17:00-05:00","message":"3e97e749-65ae-4f87-871d-a11ed95279f3"}
+{"level":"debug","time":"2022-08-31T21:17:00-05:00","message":"Found user from session token"}
+{"level":"info","time":"2022-08-31T21:19:41-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-31T21:19:41-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-08-31T21:20:02-05:00","message":"email: mostwantedrbxsteam@gmail.com tkn:97e59edd-b915-46a7-979d-4c0c48f65b69 exp:2022-09-01 03:20:02.7653396 +0000 UTC"}
+{"level":"debug","time":"2022-08-31T21:20:02-05:00","message":"97e59edd-b915-46a7-979d-4c0c48f65b69"}
+{"level":"debug","time":"2022-08-31T21:20:02-05:00","message":"Found user from session token"}
+{"level":"info","time":"2022-08-31T21:21:38-05:00","message":"Logs started"}
+{"level":"info","time":"2022-08-31T21:21:38-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-08-31T21:22:06-05:00","message":"email: mostwantedrbxsteam@gmail.com tkn:336b98fb-e5ab-45a8-ae3f-f135b0a61279 exp:2022-09-01 03:22:06.7807233 +0000 UTC"}
+{"level":"debug","time":"2022-08-31T21:22:06-05:00","message":"336b98fb-e5ab-45a8-ae3f-f135b0a61279"}
+{"level":"debug","time":"2022-08-31T21:22:06-05:00","message":"Found user from session token"}
+{"level":"info","time":"2022-09-03T03:09:57-05:00","message":"Logs started"}
+{"level":"info","time":"2022-09-03T03:09:57-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-09-05T16:34:16-05:00","message":"Logs started"}
+{"level":"info","time":"2022-09-05T16:34:16-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-09-05T16:34:54-05:00","message":"User already exists"}
+{"level":"debug","time":"2022-09-05T16:35:04-05:00","message":"email: mostwantedrbxsteam@gmail.com tkn:8956b381-f26c-4a0c-a0c0-d6a8f8421ac7 exp:2022-09-05 22:35:04.5125348 +0000 UTC"}
+{"level":"debug","time":"2022-09-05T16:35:30-05:00","message":"8956b381-f26c-4a0c-a0c0-d6a8f8421ac7"}
+{"level":"debug","time":"2022-09-05T16:35:30-05:00","message":"Found user from session token"}
+{"level":"info","time":"2022-09-05T16:47:42-05:00","message":"Logs started"}
+{"level":"info","time":"2022-09-05T16:47:42-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-09-05T16:47:49-05:00","message":"8956b381-f26c-4a0c-a0c0-d6a8f8421ac7"}
+{"level":"error","error":"pq: column \"username\" does not exist","time":"2022-09-05T16:47:49-05:00","message":"Could find user"}
+{"level":"info","time":"2022-09-05T16:49:45-05:00","message":"Logs started"}
+{"level":"info","time":"2022-09-05T16:49:45-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-09-05T16:51:10-05:00","message":"email: mostwantedrbxsteam@gmail.com tkn:6c04d5c1-6ef9-4c21-b7b4-f95c2df38cbe exp:2022-09-05 22:51:10.9902422 +0000 UTC"}
+{"level":"debug","time":"2022-09-05T16:51:24-05:00","message":"email: mostwantedrbxsteam@gmail.com tkn:fe0dd7ff-cafb-402b-9d58-25880f2e3dd4 exp:2022-09-05 22:51:24.6937349 +0000 UTC"}
+{"level":"debug","time":"2022-09-05T16:51:42-05:00","message":"fe0dd7ff-cafb-402b-9d58-25880f2e3dd4"}
+{"level":"debug","time":"2022-09-05T16:51:42-05:00","message":"Found user from session token"}
