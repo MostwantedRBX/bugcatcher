@@ -42,14 +42,10 @@ function Navbar() {
   const [email, setEmail] = React.useState("");
   const [username, setUsername] = React.useState("");
   const [password, setPassword] = React.useState("");
+  const [displayName, setDisplayName] = React.useState("")
+  const [displayEmail, setDisplayEmail] = React.useState("")
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
-
-  let usr = {
-    username: "",
-    token: "",
-  }
-
   const getCookie = (cname) => {
     let name = cname + "=";
     let decodedCookie = decodeURIComponent(document.cookie);
@@ -64,6 +60,30 @@ function Navbar() {
       }
     }
     return "";
+  }
+  const [sessionToken, setSessionToken] = React.useState(getCookie("session"))
+  if (sessionToken !== "") {
+    console.log(sessionToken)
+    fetch('http://localhost:8080/login/info', {
+        method: 'POST',
+        headers: {
+          ContentType: 'application/json'
+        },
+        body: JSON.stringify({
+          token: sessionToken
+        })
+    }).then((res) => {
+      if (res.status === 200){
+        res.json()
+      } else {
+        console.log("token didnt work.")
+      }
+    }).then((data) => {
+      console.log(data)
+      // setDisplayEmail(data.email)
+      setDisplayName(data.username)
+      setUserLoggedIn(true)
+    })
   }
   
   const handleSignup = (e) => {
@@ -100,8 +120,7 @@ function Navbar() {
         })
         }).then((res) => res.json())
         .then((data) => {
-          usr.username = data.username
-          console.log(usr.username)
+          setDisplayName(data.username)
         })
       })
     }
@@ -212,7 +231,7 @@ function Navbar() {
               <Box sx={{ flexGrow: 0 }}>
                 <Tooltip title="Open settings">
                   <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                    <Avatar alt={userLoggedIn ? "P":"?" } src="/" /> {/* TODO: Make this reflect the username */}
+                    <Avatar alt={ displayName.charAt(0).toUpperCase() } src="/" /> {/*TODO: Make this reflect the username*/}
                   </IconButton>
                 </Tooltip>
                   <Menu

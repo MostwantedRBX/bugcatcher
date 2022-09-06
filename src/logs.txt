@@ -258,3 +258,93 @@
 {"level":"debug","time":"2022-09-05T16:51:24-05:00","message":"email: mostwantedrbxsteam@gmail.com tkn:fe0dd7ff-cafb-402b-9d58-25880f2e3dd4 exp:2022-09-05 22:51:24.6937349 +0000 UTC"}
 {"level":"debug","time":"2022-09-05T16:51:42-05:00","message":"fe0dd7ff-cafb-402b-9d58-25880f2e3dd4"}
 {"level":"debug","time":"2022-09-05T16:51:42-05:00","message":"Found user from session token"}
+{"level":"info","time":"2022-09-05T17:19:11-05:00","message":"Logs started"}
+{"level":"info","time":"2022-09-05T17:19:11-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-09-05T17:21:37-05:00","message":"email: mostwantedrbxsteam@gmail.com tkn:75ad9dd7-197a-4728-a312-1a965c55bba8 exp:2022-09-05 23:21:37.5335021 +0000 UTC"}
+{"level":"debug","time":"2022-09-05T17:21:37-05:00","message":"75ad9dd7-197a-4728-a312-1a965c55bba8"}
+{"level":"debug","time":"2022-09-05T17:21:37-05:00","message":"Found user from session token"}
+{"level":"info","time":"2022-09-05T17:35:00-05:00","message":"Logs started"}
+{"level":"info","time":"2022-09-05T17:35:00-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-09-05T17:35:21-05:00","message":"email: mostwantedrbxsteam@gmail.com tkn:131f7f2d-131e-49da-8388-e5ad5c3e4a95 exp:2022-09-05 23:35:21.1663694 +0000 UTC"}
+{"level":"debug","time":"2022-09-05T17:35:21-05:00","message":"131f7f2d-131e-49da-8388-e5ad5c3e4a95"}
+{"level":"debug","time":"2022-09-05T17:35:21-05:00","message":"Found user from session token"}
+{"level":"info","time":"2022-09-05T17:40:11-05:00","message":"Logs started"}
+{"level":"info","time":"2022-09-05T17:40:11-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-09-05T17:40:49-05:00","message":"email: mostwantedrbxsteam@gmail.com tkn:09f8d625-3163-4b51-b7d5-bfcbe609bbb5 exp:2022-09-05 23:40:49.139565 +0000 UTC"}
+{"level":"debug","time":"2022-09-05T17:40:49-05:00","message":"09f8d625-3163-4b51-b7d5-bfcbe609bbb5"}
+{"level":"debug","time":"2022-09-05T17:40:49-05:00","message":"Found user from session token"}
+{"level":"info","time":"2022-09-05T17:44:47-05:00","message":"Logs started"}
+{"level":"info","time":"2022-09-05T17:44:47-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-09-05T17:45:08-05:00","message":"email: mostwantedrbxsteam@gmail.com tkn:f9174f9b-c13e-4477-a294-3ec74973bff4 exp:2022-09-05 23:45:08.4543518 +0000 UTC"}
+{"level":"debug","time":"2022-09-05T17:45:08-05:00","message":"f9174f9b-c13e-4477-a294-3ec74973bff4"}
+{"level":"debug","time":"2022-09-05T17:45:08-05:00","message":"Found user from session token"}
+{"level":"info","time":"2022-09-05T17:49:42-05:00","message":"Logs started"}
+{"level":"info","time":"2022-09-05T17:49:42-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-09-05T17:50:07-05:00","message":"email: mostwantedrbxsteam@gmail.com tkn:ef4d360c-134e-4206-a8c8-090494bf98bd exp:2022-09-05 23:50:07.8619831 +0000 UTC"}
+{"level":"debug","time":"2022-09-05T17:50:08-05:00","message":"ef4d360c-134e-4206-a8c8-090494bf98bd"}
+{"level":"debug","time":"2022-09-05T17:50:08-05:00","message":"Found user from session token"}
+{"level":"info","time":"2022-09-05T18:16:08-05:00","message":"Logs started"}
+{"level":"info","time":"2022-09-05T18:16:08-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-09-05T18:17:55-05:00","message":"Logs started"}
+{"level":"info","time":"2022-09-05T18:17:55-05:00","message":"Starting server @localhost:8080"}
+{"level":"info","time":"2022-09-05T21:57:40-05:00","message":"Logs started"}
+{"level":"info","time":"2022-09-05T21:57:40-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-09-05T21:58:00-05:00","message":"email: mostwantedrbxsteam@gmail.com tkn:1f34b885-fa35-48ba-8049-34f377902116 exp:2022-09-06 03:58:00.7316473 +0000 UTC"}
+{"level":"debug","time":"2022-09-05T21:58:00-05:00","message":"1f34b885-fa35-48ba-8049-34f377902116"}
+{"level":"debug","time":"2022-09-05T21:58:00-05:00","message":"Found user from session token"}
+{"level":"debug","time":"2022-09-05T21:58:15-05:00","message":"1f34b885-fa35-48ba-8049-34f377902116"}
+{"level":"debug","time":"2022-09-05T21:58:15-05:00","message":"Found user from session token"}
+{"level":"debug","time":"2022-09-05T21:59:21-05:00","message":"fe0dd7ff-cafb-402b-9d58-25880f2e3dd4"}
+{"level":"error","error":"could not find token in db","time":"2022-09-05T21:59:21-05:00","message":"Could find user"}
+{"level":"debug","time":"2022-09-05T21:59:30-05:00","message":"email: mostwantedrbxsteam@gmail.com tkn:769946b2-c935-4018-9967-55bbaa01809a exp:2022-09-06 03:59:30.8785556 +0000 UTC"}
+{"level":"debug","time":"2022-09-05T21:59:48-05:00","message":"769946b2-c935-4018-9967-55bbaa01809a"}
+{"level":"debug","time":"2022-09-05T21:59:48-05:00","message":"Found user from session token"}
+{"level":"info","time":"2022-09-05T22:05:13-05:00","message":"Logs started"}
+{"level":"info","time":"2022-09-05T22:05:13-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-09-05T22:05:27-05:00","message":"1f34b885-fa35-48ba-8049-34f377902116"}
+{"level":"error","error":"could not find token in db","time":"2022-09-05T22:05:27-05:00","message":"Could find user"}
+{"level":"debug","time":"2022-09-05T22:05:33-05:00","message":"1f34b885-fa35-48ba-8049-34f377902116"}
+{"level":"error","error":"could not find token in db","time":"2022-09-05T22:05:33-05:00","message":"Could find user"}
+{"level":"debug","time":"2022-09-05T22:05:37-05:00","message":"1f34b885-fa35-48ba-8049-34f377902116"}
+{"level":"error","error":"could not find token in db","time":"2022-09-05T22:05:37-05:00","message":"Could find user"}
+{"level":"debug","time":"2022-09-05T22:05:39-05:00","message":"1f34b885-fa35-48ba-8049-34f377902116"}
+{"level":"error","error":"could not find token in db","time":"2022-09-05T22:05:39-05:00","message":"Could find user"}
+{"level":"debug","time":"2022-09-05T22:05:40-05:00","message":"1f34b885-fa35-48ba-8049-34f377902116"}
+{"level":"error","error":"could not find token in db","time":"2022-09-05T22:05:40-05:00","message":"Could find user"}
+{"level":"debug","time":"2022-09-05T22:05:46-05:00","message":"1f34b885-fa35-48ba-8049-34f377902116"}
+{"level":"error","error":"could not find token in db","time":"2022-09-05T22:05:46-05:00","message":"Could find user"}
+{"level":"debug","time":"2022-09-05T22:05:48-05:00","message":"1f34b885-fa35-48ba-8049-34f377902116"}
+{"level":"error","error":"could not find token in db","time":"2022-09-05T22:05:48-05:00","message":"Could find user"}
+{"level":"debug","time":"2022-09-05T22:05:48-05:00","message":"1f34b885-fa35-48ba-8049-34f377902116"}
+{"level":"error","error":"could not find token in db","time":"2022-09-05T22:05:48-05:00","message":"Could find user"}
+{"level":"debug","time":"2022-09-05T22:05:49-05:00","message":"1f34b885-fa35-48ba-8049-34f377902116"}
+{"level":"error","error":"could not find token in db","time":"2022-09-05T22:05:49-05:00","message":"Could find user"}
+{"level":"debug","time":"2022-09-05T22:05:49-05:00","message":"1f34b885-fa35-48ba-8049-34f377902116"}
+{"level":"error","error":"could not find token in db","time":"2022-09-05T22:05:49-05:00","message":"Could find user"}
+{"level":"debug","time":"2022-09-05T22:05:49-05:00","message":"1f34b885-fa35-48ba-8049-34f377902116"}
+{"level":"error","error":"could not find token in db","time":"2022-09-05T22:05:49-05:00","message":"Could find user"}
+{"level":"debug","time":"2022-09-05T22:05:50-05:00","message":"1f34b885-fa35-48ba-8049-34f377902116"}
+{"level":"error","error":"could not find token in db","time":"2022-09-05T22:05:50-05:00","message":"Could find user"}
+{"level":"debug","time":"2022-09-05T22:05:50-05:00","message":"1f34b885-fa35-48ba-8049-34f377902116"}
+{"level":"error","error":"could not find token in db","time":"2022-09-05T22:05:50-05:00","message":"Could find user"}
+{"level":"debug","time":"2022-09-05T22:05:50-05:00","message":"1f34b885-fa35-48ba-8049-34f377902116"}
+{"level":"error","error":"could not find token in db","time":"2022-09-05T22:05:50-05:00","message":"Could find user"}
+{"level":"debug","time":"2022-09-05T22:05:52-05:00","message":"email: mostwantedrbxsteam@gmail.com tkn:68f1479b-026c-4c1e-b397-5a0e3e4c17b2 exp:2022-09-06 04:05:52.3322633 +0000 UTC"}
+{"level":"debug","time":"2022-09-05T22:05:52-05:00","message":"68f1479b-026c-4c1e-b397-5a0e3e4c17b2"}
+{"level":"debug","time":"2022-09-05T22:05:52-05:00","message":"1f34b885-fa35-48ba-8049-34f377902116"}
+{"level":"debug","time":"2022-09-05T22:05:52-05:00","message":"Found user from session token"}
+{"level":"error","error":"could not find token in db","time":"2022-09-05T22:05:52-05:00","message":"Could find user"}
+{"level":"debug","time":"2022-09-05T22:05:52-05:00","message":"1f34b885-fa35-48ba-8049-34f377902116"}
+{"level":"error","error":"could not find token in db","time":"2022-09-05T22:05:52-05:00","message":"Could find user"}
+{"level":"debug","time":"2022-09-05T22:06:00-05:00","message":"68f1479b-026c-4c1e-b397-5a0e3e4c17b2"}
+{"level":"debug","time":"2022-09-05T22:06:00-05:00","message":"Found user from session token"}
+{"level":"debug","time":"2022-09-05T22:06:35-05:00","message":"68f1479b-026c-4c1e-b397-5a0e3e4c17b2"}
+{"level":"debug","time":"2022-09-05T22:06:35-05:00","message":"Found user from session token"}
+{"level":"info","time":"2022-09-05T22:07:51-05:00","message":"Logs started"}
+{"level":"info","time":"2022-09-05T22:07:51-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-09-05T22:08:03-05:00","message":"68f1479b-026c-4c1e-b397-5a0e3e4c17b2"}
+{"level":"debug","time":"2022-09-05T22:08:03-05:00","message":"Found user from session token"}
+{"level":"debug","time":"2022-09-05T22:08:22-05:00","message":"68f1479b-026c-4c1e-b397-5a0e3e4c17b2"}
+{"level":"debug","time":"2022-09-05T22:08:22-05:00","message":"Found user from session token"}
+{"level":"debug","time":"2022-09-05T22:08:25-05:00","message":"68f1479b-026c-4c1e-b397-5a0e3e4c17b2"}
+{"level":"debug","time":"2022-09-05T22:08:25-05:00","message":"Found user from session token"}
