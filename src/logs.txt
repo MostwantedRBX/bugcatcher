@@ -348,3 +348,13 @@
 {"level":"debug","time":"2022-09-05T22:08:22-05:00","message":"Found user from session token"}
 {"level":"debug","time":"2022-09-05T22:08:25-05:00","message":"68f1479b-026c-4c1e-b397-5a0e3e4c17b2"}
 {"level":"debug","time":"2022-09-05T22:08:25-05:00","message":"Found user from session token"}
+{"level":"info","time":"2022-09-05T22:09:57-05:00","message":"Logs started"}
+{"level":"info","time":"2022-09-05T22:09:57-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-09-05T22:10:07-05:00","message":"68f1479b-026c-4c1e-b397-5a0e3e4c17b2"}
+{"level":"debug","time":"2022-09-05T22:10:07-05:00","message":"Found user from session token"}
+{"level":"info","time":"2022-09-05T22:28:43-05:00","message":"Logs started"}
+{"level":"info","time":"2022-09-05T22:28:43-05:00","message":"Starting server @localhost:8080"}
+{"level":"debug","time":"2022-09-05T22:28:57-05:00","message":"68f1479b-026c-4c1e-b397-5a0e3e4c17b2"}
+{"level":"debug","time":"2022-09-05T22:28:57-05:00","message":"Found user from session token"}
+{"level":"debug","time":"2022-09-05T22:28:57-05:00","message":"68f1479b-026c-4c1e-b397-5a0e3e4c17b2"}
+{"level":"debug","time":"2022-09-05T22:28:57-05:00","message":"Found user from session token"}

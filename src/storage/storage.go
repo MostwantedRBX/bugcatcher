@@ -32,12 +32,30 @@ type User struct {
 	Token_Expiry time.Time `json:"token_expiry"`
 }
 
+//	Takes a statement for the database as a string, prepares and executes it for you.
+//	Returns errors if any.
+func prepStatement(db *sql.DB, stmt string) error {
+	statement, err := db.Prepare(stmt)
+
+	if err != nil {
+		log.Logger.Fatal().Err(err).Msg("")
+		return err
+	}
+
+	_, err = statement.Exec()
+	if err != nil {
+		log.Logger.Fatal().Err(err).Msg("")
+		return err
+	}
+	return nil
+}
+
 //	Creates the table to store urls with a string as the key if it doesn't exist.
 func initializeDB(db *sql.DB) error {
 	db.SetMaxOpenConns(200)
 	db.SetMaxIdleConns(50)
 
-	statement, err := db.Prepare(`--sql
+	err := prepStatement(db, `--sql
 		CREATE TABLE IF NOT EXISTS users(
 			email TEXT,
 			username TEXT,
@@ -51,13 +69,7 @@ func initializeDB(db *sql.DB) error {
 		return err
 	}
 
-	_, err = statement.Exec()
-	if err != nil {
-		log.Logger.Fatal().Err(err).Msg("")
-		return err
-	}
-
-	statement, err = db.Prepare(`--sql
+	err = prepStatement(db, `--sql
 		CREATE TABLE IF NOT EXISTS session_tokens(
 			session_token TEXT,
 			session_expiry TIMESTAMP,
@@ -74,7 +86,36 @@ func initializeDB(db *sql.DB) error {
 		return err
 	}
 
-	_, err = statement.Exec()
+	err = prepStatement(db, `--sql
+		CREATE TABLE IF NOT EXISTS tickets(
+			ticket_id INT NOT NULL AUTO_INCREMENT,
+			ticket_summary TEXT,
+			ticket_submitted TIMESTAMP,
+			ticket_completed BOOL,
+			ticket_catagory TEXT,
+			ticket_creator_email TEXT,
+			PRIMARY KEY(ticket_id)
+	  	);
+	`)
+
+	if err != nil {
+		log.Logger.Fatal().Err(err).Msg("")
+		return err
+	}
+
+	err = prepStatement(db, `--sql
+		CREATE TABLE IF NOT EXISTS ticket_comments(
+			comment_id INT NOT NULL AUTO_INCREMENT,
+			comment_creator_email TEXT NOT NULL,
+			comment_text TEXT NOT NULL,
+			fk_ticket_id INT NOT NULL,
+			PRIMARY KEY(comment_id),
+			CONSTRAINT fk_ticket
+				FOREIGN KEY(fk_ticket_id)
+					REFERENCES tickets(ticket_id)
+		);
+	`)
+
 	if err != nil {
 		log.Logger.Fatal().Err(err).Msg("")
 		return err

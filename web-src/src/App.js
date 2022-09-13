@@ -2,10 +2,10 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import './App.css';
 
+import Navbar from './components/Nav';
+
 import Home from './pages/Home'
 import SignUp from './pages/SignUp';
-
-import Navbar from './components/Nav';
 import About from './pages/About';
 import Dashboard from './pages/Dashboard';
 

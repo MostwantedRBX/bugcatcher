@@ -1,7 +1,8 @@
 import * as React from "react";
 import { Link } from "react-router-dom";
-
 import { createTheme } from '@mui/material/styles';
+import getCookie from '../functions/GetCookie';
+
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -32,7 +33,7 @@ const theme = createTheme({
   }
 })
 
-const pages = ["dashboard", "about"];
+
 // const loggedOutSettings = ["Signup"];
 const loggedInSettings = ["Logout", "User Info"]
 function Navbar() {
@@ -46,24 +47,34 @@ function Navbar() {
   const [displayEmail, setDisplayEmail] = React.useState("")
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
-  const getCookie = (cname) => {
-    let name = cname + "=";
-    let decodedCookie = decodeURIComponent(document.cookie);
-    let ca = decodedCookie.split(';');
-    for(let i = 0; i <ca.length; i++) {
-      let c = ca[i];
-      while (c.charAt(0) === ' ') {
-        c = c.substring(1);
-      }
-      if (c.indexOf(name) === 0) {
-        return c.substring(name.length, c.length);
-      }
-    }
-    return "";
-  }
   const [sessionToken, setSessionToken] = React.useState(getCookie("session"))
+
+  const [windowSize, setWindowSize] = React.useState(getWindowSize());
+
+  React.useEffect(() => {
+    function handleWindowResize() {
+      setWindowSize(getWindowSize());
+    }
+
+    window.addEventListener('resize', handleWindowResize);
+
+    return () => {
+      window.removeEventListener('resize', handleWindowResize);
+    };
+  }, []);
+
+  function getWindowSize() {
+    const {innerWidth, innerHeight} = window;
+    return {innerWidth, innerHeight};
+  }
+
+  const pages = () => {
+    if (windowSize.innerWidth > 899) return ["Dashboard", "About"];
+    return ["Dashboard", "About", "Signup", "Login"];
+  }
+
   if (sessionToken !== "") {
-    console.log(sessionToken)
+    console.log("sessionToken")
     fetch('http://localhost:8080/login/info', {
         method: 'POST',
         headers: {
@@ -75,14 +86,15 @@ function Navbar() {
     }).then((res) => {
       if (res.status === 200){
         res.json()
+        .then((data) => {
+          console.log(data)
+          setDisplayEmail(data.email)
+          setDisplayName(data.username)
+          setUserLoggedIn(true)
+        })
       } else {
         console.log("token didnt work.")
       }
-    }).then((data) => {
-      console.log(data)
-      // setDisplayEmail(data.email)
-      setDisplayName(data.username)
-      setUserLoggedIn(true)
     })
   }
   
@@ -187,14 +199,27 @@ function Navbar() {
                 display: { xs: "block", md: "none" },
               }}
             >
-              {pages.map((page) => (
+              {pages().map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Link style={{ textDecoration: 'none', color: 'inherit', fontFamily: 'monospace', fontWeight:300 }} textAlign="center" to={"/".concat(page)}>{page.toUpperCase()}</Link>
+                  <Link style={{ 
+                      textDecoration: 'none', 
+                      color: 'inherit', 
+                      fontFamily: 'monospace', 
+                      fontWeight:300 
+                    }}  
+                    to={"/".concat(page.toLowerCase())}
+                    >
+                      {page.toUpperCase()}
+                    </Link>
                 </MenuItem>
               ))}
             </Menu>
           </Box>
-          <BugIcon sx={{ display: { xs: "flex", md: "none" }, mr: 1 }} />
+          <BugIcon sx={{ 
+              display: { xs: "flex", md: "none" }, 
+              mr: 1 
+            }} 
+          />
           <Typography
             variant="h5"
             noWrap
@@ -213,14 +238,34 @@ function Navbar() {
           >
             BUGTRACKER
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
-            {pages.map((page) => (
+          <Box sx={{ 
+            flexGrow: 1, 
+            display: { 
+              xs: "none", 
+              md: "flex" 
+              } 
+            }}
+          >
+            {pages().map((page) => (
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "white", display: "block" }}
+                sx={{ 
+                  my: 2, 
+                  color: "white", 
+                  display: "block" 
+                }}
               >
-                {<Link to={"/".concat(page)} style={{ textDecoration: 'none', color: 'inherit', fontFamily: 'monospace', fontWeight:100, fontSize:'1.1rem' }}>{page}</Link>}
+                {<Link to={"/".concat(page.toLowerCase())} style={{ 
+                  textDecoration: 'none', 
+                  color: 'inherit', 
+                  fontFamily: 'monospace', 
+                  fontWeight:100, 
+                  fontSize:'1.1rem' 
+                  }}
+                >
+                  {page.toUpperCase()}
+                </Link>}
               </Button>
             ))}
           </Box>
@@ -258,7 +303,12 @@ function Navbar() {
                   </Menu>
               </Box>
               : // otherwise...
-              <Box sx={{ flexGrow: 0 }}>
+              <Box sx={{ 
+                flexGrow: 0, 
+                '@media (max-width: 899px)': {
+                  display: 'none',
+                }, 
+              }}>
                 <ThemeProvider theme={theme}>
                   <ButtonGroup>
                     <Button variant="contained" color="white" onClick={() => {setSignupDialogOpen(true)}}>Sign up</Button>
@@ -295,10 +345,10 @@ function Navbar() {
                     <TextField autoFocus margin="dense" id="email" label="Email Address" type="email" fullWidth variant="standard" onChange={(e)=> {setEmail(e.target.value)}} />
                     <TextField autoFocus margin="dense" id="pass" label="Password" type="password" fullWidth variant="standard" onChange={(e)=> {setPassword(e.target.value)}} />
                   </DialogContent>
-                  <DialogActions>
+                  <DialogActions onSubmit={handleLogin}>
                     <ButtonGroup>
                       <Button variant="contained" onClick={handleLogin}>Login</Button>
-                      <Button onClick={() => {setSignupDialogOpen(false)}}>Cancel</Button>
+                      <Button onClick={() => {setLoginDialogOpen(false)}}>Cancel</Button>
                     </ButtonGroup>
                   </DialogActions>
                 </Dialog>
